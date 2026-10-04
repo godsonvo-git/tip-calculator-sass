@@ -1,0 +1,11 @@
+@mixin hide-on-mobile {
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+@mixin center-on-mobile {
+    @media (max-width: 768px) {
+        justify-content: center;
+    }
+}

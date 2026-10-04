@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sass Project</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Tip Calculator</h1>
+            <ul>
+                <li>Home</li>
+                <li>About US</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="calc">
+            <h1>Hello There!!</h1>
+            <div class="inputbox">
+                <label >Bill Amt</label>
+                <input class="input" id="bamt" type="number" placeholder="₹1000" maxlength="1000">                
+            </div>
+            <div class="inputbox">
+                <label >Tip %</label>
+                <select class="input" id="tipvalue">
+                    <option value="10">10%</option>
+                    <option value="15">15%</option>
+                    <option value="20">20%</option>
+                </select>              
+            </div>
+            <button class="calculate" id="calcbtn">Calculate</button>
+            <h2 id="tamt"></h2>
+        </div>
+    </section>
+    <footer>
+        &copy; <a href="https://godsonvo-portfolio.vercel.app/">Godson V O</a> &nbsp;|&nbsp; 2026 
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

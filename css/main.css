@@ -1,0 +1,95 @@
+section .calc button {
+  padding: 15px 30px 15px 30px;
+  font-weight: 700;
+  color: white;
+  background-color: #FF0033;
+  border: none;
+  border-radius: 5px;
+}
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+@media (max-width: 768px) {
+  nav {
+    justify-content: center;
+  }
+}
+nav h1,
+nav ul {
+  margin: 20px 80px 20px 30px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  nav h1 {
+    margin: 20px 0;
+  }
+}
+nav h1, nav ul {
+  margin: 20px 80px 20px 30px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  list-style: none;
+}
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+section .calc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 40px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  width: 400px;
+  height: 500px;
+}
+section .calc label, section .calc input, section .calc .input {
+  font-weight: 700;
+  padding: 10px 15px 10px 15px;
+}
+section .calc button:hover {
+  background-color: black;
+}
+section .calc button:active {
+  transform: translateX(2px) scale(0.97);
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=main.css.map */
